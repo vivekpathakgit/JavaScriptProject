@@ -10,15 +10,7 @@
     from {height: 100px;
         width: 100px;}
     to {height: 130px; width: 130px;}
-<<<<<<< HEAD
-}
-@keyframes decreaseSize{
-    from {height: 130px; width: 130px;}
-    to {height: 100px; width: 100px;}
-}
-=======
 } */
->>>>>>> 1be42ed0aea90ca4bb29ec2e65e786467d32a7c9
 .div1{
     display: flex;
     flex-wrap: wrap;
@@ -53,8 +45,6 @@
 .functions{
     display: inline-block;
     margin-left: 5%;
-    
 }
-
 
 
