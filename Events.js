@@ -6,6 +6,9 @@ b2.addEventListener('click', function(){
     //Testing change in css attribute- oder (ranging 0-5) of box id-b1 : 
     // console.log(document.querySelector('#b1').style.order);
     // console.log(10*Math.random());
+    //Testing change in css attribute- oder (ranging 0-5) of box id-b1 : 
+    // console.log(document.querySelector('#b1').style.order);
+    // console.log(10*Math.random());
 });
 b3.addEventListener('click', function(){
     document.getElementById("b1").style.order = 1;
@@ -13,26 +16,7 @@ b3.addEventListener('click', function(){
     document.getElementById("b3").style.order = 3;
     document.getElementById("b4").style.order = 4;
 });
-b1.addEventListener('mouseover', function(){
-    console.log('Hii');
-    var obj = document.getElementById("b1");
-    obj.style.width = "150px";
-    obj.style.height = "150px";
-    document.getElementById("b2").style.width = "150px";
-    document.getElementById("b2").style.height = "150px";
-    document.getElementById("b3").style.width = "150px";
-    document.getElementById("b3").style.height = "150px";
-    document.getElementById("b4").style.width = "150px";
-    document.getElementById("b4").style.height = "150px";
-    
-});
-// b1.addEventListener('mouseover', function(){
-//     console.log('Hii');
-//     var obj = document.getElementById("b1");
-//     // obj.style.width = "200px";
-//     obj.setAttribute("style", "background-color : green; height : 130px; width : 130px; animation-name : increaseSize; animation-duration: 3s;");
-// });
-b1.addEventListener('mouseout', function(){
+b1.addEventListener('onmouseenter', function(){
     var obj = document.getElementById("b1");
     obj.style.width = "100px";
     obj.style.height = "100px";
